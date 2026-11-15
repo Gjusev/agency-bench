@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agency-bench"
+version = "0.1.0"
+description = "Offline harness-cost benchmark for LLM agent harnesses (mechanism-level study after arXiv:2611.12122)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Gjusev" }]
+keywords = ["llm-agents", "cost-optimization", "harness", "evaluation"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+# Zero-dependency core: the offline bench and tests need NOTHING installed.
+dependencies = []
+
+[project.optional-dependencies]
+# Reserved for future real-harness adapters; nothing here yet.
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
