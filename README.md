@@ -1,5 +1,10 @@
 # agency-bench
 
+[![tests](https://github.com/Gjusev/agency-bench/actions/workflows/tests.yml/badge.svg)](https://github.com/Gjusev/agency-bench/actions/workflows/tests.yml)
+[![dependencies](https://img.shields.io/badge/dependencies-0-success)]()
+[![python](https://img.shields.io/badge/python-3.10%2B-blue)]()
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **Offline harness-cost benchmark for LLM agent harnesses** — a mechanism-level, deterministic repro/test repo for [arXiv:2611.12122](https://arxiv.org/abs/2611.12122), *"System Optimizations for Cost-Efficient Agent Harnesses"* (Park et al., UC Berkeley, 2026). Independent and unofficial — not affiliated with the authors.
 
 ## What & why
