@@ -5,6 +5,21 @@
 [![python](https://img.shields.io/badge/python-3.10%2B-blue)]()
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo/logo-animated-dark.svg">
+    <img src="assets/logo/logo-animated-light.svg" alt="agency-bench: same agent, leaner harness — the token stack collapses, the check stays" width="560">
+  </picture>
+</p>
+
+<p align="center">
+  <a href="assets/video/agency-bench.mp4">
+    <img src="assets/video/preview.gif" alt="A tall token stack on the left stays fixed; a smaller stack on the right settles in while a check stays lit" width="720">
+  </a>
+  <br>
+  <sub><a href="assets/video/agency-bench.mp4">Watch the 8-second film (MP4, 0.1 MB)</a>. Every number in it comes from the committed results in this repo.</sub>
+</p>
+
 **Offline harness-cost benchmark for LLM agent harnesses** — a mechanism-level, deterministic repro/test repo for [arXiv:2611.12122](https://arxiv.org/abs/2611.12122), *"System Optimizations for Cost-Efficient Agent Harnesses"* (Park et al., UC Berkeley, 2026). Independent and unofficial — not affiliated with the authors.
 
 ## What & why
